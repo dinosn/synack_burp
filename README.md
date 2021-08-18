@@ -1,5 +1,8 @@
 # synack_burp
 
+TLDR
+If you don't want to be bothered use my cacerts file which is attached here and copy it on the location of yours.
+
 For all java application the certificate trust is handled under 'cacerts' file.  As Burp is a java application you should locate the path
 of this file.  You can identify the location of the file easier by looking on the Burp's directory structure or as Burp is running 
 
@@ -25,4 +28,4 @@ To import SYNACK-LAUNCHPOINT-SP.der on your cacert file you use the following co
 `keytool -import -alias burp -keystore cacerts -file SYNACK-LAUNCHPOINT-SP.der`
 When prompted for password use `changeit`
 
-If you don't want to be bothered use my cacerts file which is attached here and copy it on the location of yours.
+
