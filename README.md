@@ -3,6 +3,8 @@
 TLDR
 If you don't want to be bothered use my cacerts file which is attached here and copy it on the location of yours.
 
+For LP+ default location is `/usr/local/BurpSuitePro/jre/lib/security`
+
 For all java application the certificate trust is handled under 'cacerts' file.  As Burp is a java application you should locate the path
 of this file.  You can identify the location of the file easier by looking on the Burp's directory structure or as Burp is running 
 
